@@ -1,0 +1,52 @@
+#mobile-menu{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  width:50vw;
+  height:50vw;
+}
+
+#mobile-menu-home{
+  position: relative;
+  float:right;
+  margin-top:25vw;
+  width: 25vw;
+  height:25vw;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 10px;
+}
+
+.mobile-menu-item{
+  position: absolute;
+  width:15vw;
+  height:15vw;
+  transition: 0.25s;
+  transition-timing-function: ease-in-out;
+  border-radius: 50%;
+}
+
+#mobile-menu-item-1{
+  top:5vw;
+  left:5vw;
+}
+#mobile-menu-item-2{
+  top:5vw;
+  left:5vw;
+}
+#mobile-menu-item-3{
+  bottom:5vw;
+  left:5vw;
+}
+
+#mobile-menu-home:hover #mobile-menu-item-1 {
+  margin-top: -25vw;
+}
+#mobile-menu-home:hover #mobile-menu-item-2 {
+  margin-top: -20vw;
+  margin-left: -20vw;
+}
+#mobile-menu-home:hover #mobile-menu-item-3 {
+  margin-left:-25vw;
+}

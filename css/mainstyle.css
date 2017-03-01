@@ -1,0 +1,20 @@
+/*main styling of the website*/
+
+.bg-black-darker {background-color: #121212;}
+.bg-black-normal {background-color: #2b2b2b;}
+.bg-black-lighter{background-color: #545454;}
+
+.bg-white-darker {background-color:#c6c6c6;}
+.bg-white-normal {background-color:#e0e0e0;}
+.bg-white-lighter{background-color:#eeeeee;}
+
+.bg-orange-darker {background-color:#f77a1e;}
+.bg-orange-normal {background-color:#f7941e;}
+.bg-orange-lighter{background-color:#f7c11e;}
+
+.bg-blue-darker {background-color:#106fd1;}
+.bg-blue-normal {background-color:#10a6d1;}
+.bg-blue-lighter{background-color:#12e0e8;}
+
+.text-white{color: #c0c0c0;}
+.text-black{color: #2b2b2b;}
