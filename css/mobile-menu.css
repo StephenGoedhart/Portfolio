@@ -1,7 +1,7 @@
 #mobile-menu{
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
+  position: fixed;
+  bottom: 5vw;
+  right: 5vw;
   width:50vw;
   height:50vw;
 }
@@ -16,6 +16,10 @@
   color: white;
   text-align: center;
   line-height: 10px;
+  font-size: 12vw;
+  line-height: 2;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
 }
 
 .mobile-menu-item{
@@ -25,12 +29,16 @@
   transition: 0.25s;
   transition-timing-function: ease-in-out;
   border-radius: 50%;
+  z-index:-1;
 }
+
+
 
 #mobile-menu-item-1{
   top:5vw;
   left:5vw;
 }
+
 #mobile-menu-item-2{
   top:5vw;
   left:5vw;
@@ -39,14 +47,24 @@
   bottom:5vw;
   left:5vw;
 }
-
+#mobile-menu-home:hover {
+  background-color:#e0e0e0;
+  color: #2b2b2b;
+}
 #mobile-menu-home:hover #mobile-menu-item-1 {
   margin-top: -25vw;
 }
+
 #mobile-menu-home:hover #mobile-menu-item-2 {
   margin-top: -20vw;
   margin-left: -20vw;
 }
+
 #mobile-menu-home:hover #mobile-menu-item-3 {
   margin-left:-25vw;
+}
+
+#mobile-menu-home:hover .mobile-menu-item:hover{
+  background-color:#e0e0e0;
+  color: #2b2b2b;
 }
