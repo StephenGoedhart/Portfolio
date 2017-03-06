@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Roboto', sans-serif;
   line-height: 1.15; /* 2 */
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
@@ -100,11 +100,15 @@ pre {
 /**
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ * 3. Remove any artificial style bound to the a element.
+ * 4. Use the color settings of the parent instead.
  */
 
 a {
   background-color: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
+  text-decoration: none; /* 3 */
+  color: inherit; /* 4 */
 }
 
 /**
