@@ -23,7 +23,24 @@
     </div>
   </div>
 
-  <div id="tablet-menu" class="hidden-in-m hidden-on-d"></div>
+  <div id="tablet-menu" class="menu-inactive bg-black-normal hidden-on-m hidden-on-d">
+
+    <div class="col-tb-5 height-tb-12">
+      <div class="col-tb-2 height-tb-8 bg-tb-blue-normal bottom-right-border-radius-m-12 bottom-right-border-radius-tb-5 float-tb-left padding-tb-1">
+        <div id="logo-tb"></div>
+      </div>
+      <div class="col-tb-5 height-tb-12 float-tb-left bg-black-normal">
+        <div class="col-tb-4 margin-top-tb-6 float-tb-left">
+          <ul>
+            <li>HOME</li>
+            <li>PORTFOLIO</li>
+            <li>ABOUT ME</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="tablet-menu-hamburger-icon" class="text-white bg-black-normal iconInactive hidden-on-m hidden-on-d"><span class="fa fa-bars"></span></div>
   <!-- end of absolute positioned elements -->
   <div class="col-d-12 height-d-6 bg-black-darker"> </div>
     <!-- header -->
@@ -65,6 +82,11 @@
     </div>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/seperator.js"></script>
-
+    <script>
+    $("#tablet-menu-hamburger-icon").click(function () {
+      $("#tablet-menu-hamburger-icon").toggleClass("iconActive");
+      $("#tablet-menu").toggleClass("menu-active");
+    });
+    </script>
 </body>
 </html>

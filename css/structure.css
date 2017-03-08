@@ -15,18 +15,18 @@
   .text-align-m-right{text-align: right;}
 
 
-  .col-m-1  {width: 8.33%;}
-  .col-m-2  {width: 16.66%;}
-  .col-m-3  {width: 25%;}
-  .col-m-4  {width: 33.33%;}
-  .col-m-5  {width: 41.66%;}
-  .col-m-6  {width: 50%;}
-  .col-m-7  {width: 58.33%;}
-  .col-m-8  {width: 66.66%;}
-  .col-m-9  {width: 75%;}
-  .col-m-10 {width: 83.33%;}
-  .col-m-11 {width: 91.66%;}
-  .col-m-12 {width: 100%;}
+  .col-m-1  {width: 8.33vw;}
+  .col-m-2  {width: 16.66vw;}
+  .col-m-3  {width: 25vw;}
+  .col-m-4  {width: 33.33vw;}
+  .col-m-5  {width: 41.66vw;}
+  .col-m-6  {width: 50vw;}
+  .col-m-7  {width: 58.33vw;}
+  .col-m-8  {width: 66.66vw;}
+  .col-m-9  {width: 75vw;}
+  .col-m-10 {width: 83.33vw;}
+  .col-m-11 {width: 91.66vw;}
+  .col-m-12 {width: 100vw;}
 
   .height-m-1  {height:5px;}
   .height-m-2  {height:10px;}
@@ -126,18 +126,18 @@
   .text-align-tb-center{text-align: center;}
   .text-align-tb-right{text-align: right;}
 
-  .col-tb-1  {width: 8.33%;}
-  .col-tb-2  {width: 16.66%;}
-  .col-tb-3  {width: 25%;}
-  .col-tb-4  {width: 33.33%;}
-  .col-tb-5  {width: 41.66%;}
-  .col-tb-6  {width: 50%;}
-  .col-tb-7  {width: 58.33%;}
-  .col-tb-8  {width: 66.66%;}
-  .col-tb-9  {width: 75%;}
-  .col-tb-10 {width: 83.33%;}
-  .col-tb-11 {width: 91.66%;}
-  .col-tb-12 {width: 100%;}
+  .col-tb-1  {width: 8.33vw;}
+  .col-tb-2  {width: 16.66vw;}
+  .col-tb-3  {width: 25vw;}
+  .col-tb-4  {width: 33.33vw;}
+  .col-tb-5  {width: 41.66vw;}
+  .col-tb-6  {width: 50vw;}
+  .col-tb-7  {width: 58.33vw;}
+  .col-tb-8  {width: 66.66vw;}
+  .col-tb-9  {width: 75vw;}
+  .col-tb-10 {width: 83.33vw;}
+  .col-tb-11 {width: 91.66vw;}
+  .col-tb-12 {width: 100vw;}
 
   .height-tb-1  {height:5px;}
   .height-tb-2  {height:10px;}
@@ -233,18 +233,18 @@
   .text-align-d-center{text-align: center;}
   .text-align-d-right{text-align: right;}
 
-  .col-d-1  {width: 8.33%;}
-  .col-d-2  {width: 16.66%;}
-  .col-d-3  {width: 25%;}
-  .col-d-4  {width: 33.33%;}
-  .col-d-5  {width: 41.66%;}
-  .col-d-6  {width: 50%;}
-  .col-d-7  {width: 58.33%;}
-  .col-d-8  {width: 66.66%;}
-  .col-d-9  {width: 75%;}
-  .col-d-10 {width: 83.33%;}
-  .col-d-11 {width: 91.66%;}
-  .col-d-12 {width: 100%;}
+  .col-d-1  {width: 8.33vw;}
+  .col-d-2  {width: 16.66vw;}
+  .col-d-3  {width: 25vw;}
+  .col-d-4  {width: 33.33vw;}
+  .col-d-5  {width: 41.66vw;}
+  .col-d-6  {width: 50vw;}
+  .col-d-7  {width: 58.33vw;}
+  .col-d-8  {width: 66.66vw;}
+  .col-d-9  {width: 75vw;}
+  .col-d-10 {width: 83.33vw;}
+  .col-d-11 {width: 91.66vw;}
+  .col-d-12 {width: 100vw;}
 
   .height-d-1  {height:5px;}
   .height-d-2  {height:10px;}
